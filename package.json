@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bookshelf": "0.10.*",
+    "bookshelf-eloquent": "^0.1.15",
+    "@fastify/formbody": "^7.4.0",
+    "validatorjs": "^3.18.1",
+    "dotenv": "4.0.*",
+    "fastify": "^4.10.2",
+    "knex": "0.12.*",
+    "mysql": "^2.16.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
